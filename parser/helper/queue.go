@@ -2,6 +2,7 @@ package helper
 
 import (
 	"fmt"
+	"os"
 	"time"
 
 	"github.com/beanstalkd/go-beanstalk"
@@ -19,9 +20,9 @@ type JobModel struct {
 
 func InitQueue() *Queue {
 	return &Queue{
-		Addr:    "127.0.0.1",
-		Port:    "11300",
-		Network: "tcp",
+		Addr:    os.Getenv("QUEUE_ADDR"),
+		Port:    os.Getenv("QUEUE_PORT"),
+		Network: os.Getenv("QUEUE_NETWORK"),
 	}
 }
 

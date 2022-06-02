@@ -6,12 +6,7 @@ import (
 	"github.com/metecan/wape/parser/handler"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/joho/godotenv"
 )
-
-func init() {
-	godotenv.Load()
-}
 
 func main() {
 
