@@ -6,6 +6,7 @@ require (
 	github.com/PuerkitoBio/goquery v1.8.0
 	github.com/beanstalkd/go-beanstalk v0.1.0
 	github.com/gofiber/fiber/v2 v2.34.0
+	github.com/joho/godotenv v1.4.0
 	github.com/lib/pq v1.10.6
 )
 
