@@ -32,7 +32,7 @@ func ReserveAndInsert(queue Queue, connect *beanstalk.Conn, db *sql.DB, wg *sync
 	}
 
 	// Spliting the path to getting file name
-	fileName := strings.Split(jsonBody.Path, "/")[8]
+	fileName := strings.Split(jsonBody.Path, "/")[9]
 
 	// Spliting the file name to getting the keyword
 	fileKeyword := strings.Split(fileName, ".")[0]
