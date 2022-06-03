@@ -77,7 +77,7 @@ File upload is successful.
 
 Then you can use the following steps to insert the files into the DB
 
-Send a GET request with REST client to the following URL: http://localhost:8001/ or http://127.0.0.1:8001/page
+Send a GET request with REST client to the following URL: http://localhost:8001/ or http://127.0.0.1:8001/
 Then parser will be triggered to parse the files and insert them into the DB
 
 or you can use terminal to run the following command:
